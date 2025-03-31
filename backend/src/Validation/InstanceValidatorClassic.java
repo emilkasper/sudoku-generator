@@ -15,19 +15,6 @@ public class InstanceValidatorClassic implements InstanceValidator {
   }
 
   /*
-    * This method validates the format of the instance.
-    *
-    * @param instance The instance to validate.
-    * @throws IllegalArgumentException if the instance is invalid.
-   */
-  @Override
-  public void validateFormat(int[][][] instance) throws IllegalArgumentException {
-    if (instance.length != SIZE) {
-      throw new IllegalArgumentException("The instance must have 9 rows.");
-    }
-  }
-
-  /*
     * This method validates the instance.
     *
     * @param instance The instance to validate.
@@ -35,7 +22,6 @@ public class InstanceValidatorClassic implements InstanceValidator {
    */
   @Override
   public void validateInstance(int[][][] instance) throws IllegalArgumentException {
-    validateFormat(instance);
     validateRows(instance);
     validateColumns(instance);
     validateBoxes(instance);

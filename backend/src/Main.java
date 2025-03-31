@@ -28,6 +28,11 @@
         logger.severe("Failed to write Sudoku to file: " + e.getMessage());
       }
 
+      int[][][] puzzle = generator.generatePuzzleFromSolved(sudoku, 60); // removes 60 cells
+
+      SudokuPrinter.print(puzzle);
+
+
       // Alternatively, print the Sudoku instance to the console
       // SudokuPrinter.print(sudoku);
     }
