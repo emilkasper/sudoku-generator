@@ -7,13 +7,28 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Sudoku Solver & Generator</h1>
+  <div id="loading-overlay" class="loading-overlay">
+    <div class="loader"></div>
+    <button class="cancel-btn" onclick="cancelGeneration()">×</button>
+  </div>
+  
+
+  <h1>DPLL Sudoku Solver & Generator</h1>
 
   <div class="button-row">
-    <button onclick="generatePuzzle()">Generate Puzzle</button>
+    <label for="difficulty">Difficulty:</label>
+    <select id="difficulty">
+      <option value="Easy">Easy</option>
+      <option value="Medium" selected>Medium</option>
+      <option value="Hard">Hard</option>
+    </select>
+    
+  
+    <button onclick="generatePuzzle()">Generate</button>
     <button onclick="solvePuzzle()">Solve</button>
     <button onclick="clearPuzzle()">Clear</button>
   </div>
+  
 
   <div id="sudoku-board" class="sudoku-board">
     <div class="grid-box">

@@ -1,53 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="35238328-60ac-46c3-8e79-25f6c10f0ed7" name="Changes" comment="" />
+    <list default="true" id="552ce689-1db0-481a-8e11-da61660b91e7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/Sudoku/src/main/java/com/example/demo/Controller/SudokuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/Sudoku Solver.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/demo/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Sudoku/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/demo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Sudoku/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Sudoku/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/demo/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Sudoku/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/demo/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Sudoku/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Sudoku/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Sudoku/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Sudoku/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Sudoku/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Config/SudokuConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Sudoku/src/main/java/com/example/demo/Config/SudokuConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Config/SudokuConfigClassic.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Sudoku/src/main/java/com/example/demo/Config/SudokuConfigClassic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Output/SudokuFileExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Sudoku/src/main/java/com/example/demo/Output/SudokuFileExporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Output/SudokuPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Sudoku/src/main/java/com/example/demo/Output/SudokuPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/SATSolver/SATSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Sudoku/src/main/java/com/example/demo/Solver/SATSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/SATSolver/SATSolverDPLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Sudoku/src/main/java/com/example/demo/Solver/SATSolverDPLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/SATSolver/SATSolverResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Sudoku/src/main/java/com/example/demo/Solver/SATSolverResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Setup/InstanceGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Sudoku/src/main/java/com/example/demo/Generator/InstanceGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Setup/InstanceGeneratorClassic.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Sudoku/src/main/java/com/example/demo/Generator/InstanceGeneratorClassic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Setup/SudokuClauseGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Sudoku/src/main/java/com/example/demo/Generator/SudokuClauseGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Setup/SudokuClauseGeneratorClassic.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Sudoku/src/main/java/com/example/demo/Generator/SudokuClauseGeneratorClassic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Setup/SudokuEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Sudoku/src/main/java/com/example/demo/Generator/SudokuEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Setup/SudokuEncoderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Sudoku/src/main/java/com/example/demo/Generator/SudokuEncoderImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Setup/SudokuHintTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Sudoku/src/main/java/com/example/demo/Generator/SudokuHintTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Setup/SudokuRandomizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Sudoku/src/main/java/com/example/demo/Generator/SudokuRandomizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Validation/InstanceValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Sudoku/src/main/java/com/example/demo/Validation/InstanceValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Validation/InstanceValidatorClassic.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Sudoku/src/main/java/com/example/demo/Validation/InstanceValidatorClassic.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="Interface" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
-}</component>
-  <component name="ProjectId" id="2uzBTitB7di4NeZKefhLT9TKnyK" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2v7bJGPRqsqCvFhzIEcClVtpd81" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Emil/Documents/Studium/LoRe/Sudoku Solver/backend",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
+    "last_opened_file_path": "C:/Users/Emil/Documents/Studium/LoRe/SudokuSolver/backend/Sudoku/pom.xml",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Emil/Documents/Studium/SQS/Sudoku Solver/src/Main.java",
     "vue.rearranger.settings.migration": "true"
-  },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT"
-    ]
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -61,16 +73,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="35238328-60ac-46c3-8e79-25f6c10f0ed7" name="Changes" comment="" />
-      <created>1743241533528</created>
+      <changelist id="552ce689-1db0-481a-8e11-da61660b91e7" name="Changes" comment="" />
+      <created>1743498987818</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1743241533528</updated>
-      <workItem from="1743241534317" duration="9389000" />
-      <workItem from="1743255743918" duration="3775000" />
-      <workItem from="1743286314043" duration="5946000" />
-      <workItem from="1743453551209" duration="1909000" />
-      <workItem from="1743494376578" duration="46000" />
+      <updated>1743498987818</updated>
+      <workItem from="1743498989097" duration="53000" />
     </task>
     <servers />
   </component>

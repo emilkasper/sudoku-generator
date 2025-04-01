@@ -6,22 +6,44 @@ body {
     background-color: #f9f9f9;
   }
   
-  h1 {
+h1 {
     margin-bottom: 1rem;
-  }
-  
-  .button-row {
+}
+ 
+/*************************************************************************
+Buttons and Selectors
+**************************************************************************/
+
+button {
+  width: 120px; 
+  padding: 10px 0;
+  font-size: 16px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.button-row {
     margin-bottom: 1.5rem;
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
   
-  button {
-    margin: 0 10px;
-    padding: 10px 20px;
+.button-row label {
     font-size: 16px;
-    cursor: pointer;
-  }
+}
   
-  .sudoku-board {
+select {
+    padding: 8px 12px;
+    font-size: 16px;
+}
+
+/**************************************************************************
+Sudoku Board
+**************************************************************************/
+  
+.sudoku-board {
     display: grid;
     grid-template-columns: repeat(3, auto);  
     gap: 0px;                               
@@ -29,32 +51,91 @@ body {
     padding: 3px;
     width: fit-content;
     margin: 0 auto;
-  }
+}
   
-  .grid-box {
+.grid-box {
     display: grid;
     grid-template-columns: repeat(3, 40px);
     grid-template-rows: repeat(3, 40px);
     background-color: #fff;
     border: 1px solid #333;
-  }
+}
   
-  .grid-cell {
+.grid-cell {
     width: 40px;
     height: 40px;
     text-align: center;
     font-size: 18px;
     border: 2px solid #ccc;
     box-sizing: border-box;
-  }
+}
   
-  .grid-cell:focus {
+.grid-cell:focus {
     outline: 2px solid #007bff;
-  }
+}
   
-  .prefilled {
-    background-color: #eaeaea;
-    font-weight: bold;
-    pointer-events: none;
-  }
+.prefilled {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  color: #555;
+  pointer-events: none;
+}
+
+
+.incorrect {
+  background-color: #ffe5e5;
+  border: 2px solid red;
+  color: red;
+}
+
+/********************************************************************
+Loading Overlay
+*********************************************************************/
+
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 9999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.cancel-btn {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+}
+.cancel-btn:hover {
+  color: #e74c3c;
+}
+
+
+  
+  
   
